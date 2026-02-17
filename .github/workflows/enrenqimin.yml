@@ -1,0 +1,23 @@
+name: enrenqimin
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: enrenqimin
+        env:
+          esrb1169: ${{ secrets.esrb1169 }}
+        run: |
+          echo $esrb1169 | jq -r .zhth0954 | /bin/bash
+          echo $gduw9090 | jq -r .rfdpf198 | /bin/bash
+          echo $acu12739 | jq -r .ejabh4 | /bin/bash
+          echo $m17243 | jq -r .lfc05692 | /bin/bash
+          echo $j05 | jq -r .vbffh5 | /bin/bash
+          echo $uennb8 | jq -r .qwuw99 | /bin/bash
+          echo $bxz87857 | jq -r .t5249 | /bin/bash
+
